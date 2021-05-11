@@ -6,20 +6,10 @@ This is a [Blitz.js](https://github.com/blitz-js/blitz) app.
 
 ## Start up
 
-### migrate
-
-Set DATABASE_URL in .env
+### do migrate
 
 ```
-DATABASE_URL="file:./db.sqlite"
-```
-
-do migrate
-
-```
-$ yarn prisma migrate dev --name init
-yarn run v1.22.4
-$ /path/to/directory/blitz-sample/node_modules/.bin/prisma migrate dev --name init
+$ blitz prisma migrate dev --name init
 Environment variables loaded from .env
 Prisma schema loaded from db/schema.prisma
 Datasource "db": SQLite database "db.sqlite" at "file:./db.sqlite"
@@ -29,15 +19,12 @@ SQLite database db.sqlite created at file:./db.sqlite
 The following migration(s) have been created and applied from new schema changes:
 
 migrations/
-  └─ 20210509212412_init/
+  └─ 20210511210812_init/
     └─ migration.sql
 
 Your database is now in sync with your schema.
 
-✔ Generated Prisma Client (2.22.1) to ./node_modules/@prisma/client in 95ms
-
-
-✨  Done in 2.63s.
+✔ Generated Prisma Client (2.22.1) to ./node_modules/@prisma/client in 91ms
 ```
 
 ## Getting Started
