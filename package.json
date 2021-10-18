@@ -44,7 +44,7 @@
     "prettier": "2.3.0",
     "pretty-quick": "3.1.0",
     "preview-email": "3.0.4",
-    "prettier-plugin-prisma": "0.9.1"
+    "prettier-plugin-prisma": "0.15.0"
   },
   "private": true
 }
