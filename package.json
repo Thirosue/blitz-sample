@@ -37,13 +37,13 @@
   },
   "devDependencies": {
     "@types/react": "17.0.5",
-    "@types/preview-email": "2.0.0",
+    "@types/preview-email": "3.1.0",
     "eslint": "7.26.0",
     "husky": "6.0.0",
     "lint-staged": "11.0.0",
     "prettier": "2.3.0",
     "pretty-quick": "3.1.0",
-    "preview-email": "3.0.4",
+    "preview-email": "3.4.0",
     "prettier-plugin-prisma": "0.9.1"
   },
   "private": true
